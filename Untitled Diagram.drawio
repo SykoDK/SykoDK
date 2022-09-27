@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T13:53:22.122Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.7" etag="265W2cBaZUa63g3spQLX" type="github"><diagram id="Ltt581SyBC3VmqaR4jXe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-27T14:05:13.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="f3qm3QpGU57wZypBYkNF" version="20.3.7" type="github">
+  <diagram id="Ltt581SyBC3VmqaR4jXe" name="Page-1">
+    <mxGraphModel dx="269" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U3EmC8Cch8OpjpH-2AS7-1" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="360" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="U3EmC8Cch8OpjpH-2AS7-2" value="-nextid: int&#xa;-firstName: String&#xa;-lastName: String&#xa;-id: int&#xa;-gpa: double&#xa;-credits: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" vertex="1" parent="U3EmC8Cch8OpjpH-2AS7-1">
+          <mxGeometry y="26" width="360" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="U3EmC8Cch8OpjpH-2AS7-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="U3EmC8Cch8OpjpH-2AS7-1">
+          <mxGeometry y="140" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="U3EmC8Cch8OpjpH-2AS7-4" value="+addCourse(): void&#xa;+ report(): void&#xa;+canGraduate(): boolean&#xa;+getYear(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="U3EmC8Cch8OpjpH-2AS7-1">
+          <mxGeometry y="148" width="360" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
